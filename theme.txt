@@ -1,0 +1,49 @@
+# GRUB RCovery theme
+
+####################
+#    | nebula |    #
+####################
+
+# Global Property
+title-text: ""
+desktop-image: "background.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Boot menu
++ boot_menu {
+  left = 33%
+  top = 37%
+  width = 34%
+  height = 27%
+  item_font = "Arcade Regular 16"
+  item_color = "#ffffff"
+  selected_item_color = "#f8dbff"
+  item_spacing = 0
+  icon_width = 0
+  item_icon_space = 0
+}
+
++ label {
+  top = 82%
+  left = 32%
+  width = 36%
+  align = "center"
+  id = "__timeout__"
+  text = "booting in %d seconds"
+  color = "#cccccc"
+  font = "Equalizer Regular 80"
+}
+
++ label {
+  top = 95%
+  left = 32%
+  width = 36%
+  align = "center"
+  text = "nebula"
+  color = "#cccccc"
+  font = "Cubic Regular 20"
+}
